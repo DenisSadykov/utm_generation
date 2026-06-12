@@ -32,8 +32,6 @@
   <option value="vk">ВК</option>
   <option value="trds">Тредс</option>
   <option value="dzen">Дзен</option>
-  <option value="pp">ПП</option>
-  <option value="aj">АЖ</option>
   <option value="__custom__">Другое...</option>
 </select>
 <input type="text" id="platformCustom" placeholder="введите своё значение" class="hidden">
@@ -86,11 +84,11 @@ const presets = {
   tg: [
     { value: 'vmbot', label: 'Вселена Мастер Бот (vmbot)' },
     { value: 'nrclubbot', label: 'Поток Изобилия Бот (nrclubbot)' },
-    { value: 'talism', label: 'Канал с Талисманами (talism)' }
+    { value: 'talism', label: 'Канал с Талисманами (talism)' },
+    { value: 'pp', label: 'ПП (pp)' },
+    { value: 'azbukazhi', label: 'АЖ (azbukazhi)' }
   ],
-  treads: [],
-  pp: [],
-  aj: []
+  trds: []
 };
 
 function onPlatformChange() {
